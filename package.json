@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "svg2vue",
+  "productName": "Convert SVG to Vue Component online",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "poi --serve",
+    "dev:api": "micro-dev api/transform.js --port 4002",
+    "build": "poi --prod",
+    "now-build": "npm run build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "prettier": "^1.16.4",
+    "svg-to-vue-component": "^0.3.6",
+    "svgo": "^1.2.0",
+    "vue": "^2.6.8",
+    "vue-monaco": "^0.3.1",
+    "vue-router": "^3.0.2",
+    "vue-template-compiler": "^2.6.8"
+  },
+  "devDependencies": {
+    "monaco-editor-webpack-plugin": "^1.7.0",
+    "poi": "^12.5.6",
+    "postcss-preset-env": "^6.6.0"
+  }
+}

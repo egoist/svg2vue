@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "alias": ["svg2vue.egoist.sh", "svg2vue.now.sh"],
+  "builds": [
+    {
+      "src": "api/transform/index.js",
+      "use": "@now/node"
+    },
+    {
+      "src": "package.json",
+      "use": "@now/static-build"
+    }
+  ]
+}
